@@ -1,0 +1,199 @@
+html, body {
+     background-color: #fff;
+     color: black;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 100;
+     height: 100vh;
+     margin: 0;
+ }
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    margin-left: 10px;
+    /*text-align: center;*/
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: black;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.row{
+    margin-right: 0px;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+.hidden_authorization
+{
+    margin-top:20px;
+    display: none;
+}
+.hidden_register
+{
+    margin-top: 20px;
+    display: none;
+}
+.lp_authorization_btn
+{
+    margin-top: 20px;
+}
+.reposit_st
+{
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+.author_info
+{
+    background-color: #d6d4d4;
+    margin-bottom: 15px;
+    display: -webkit-inline-box;
+}
+.avatar
+{
+    width: 100px;
+    height:100px;
+    margin: 5px;
+}
+.like_repos
+{
+    font-size: 25px !important;
+    float: right;
+    /*margin-right: 10px;*/
+}
+.dislike_repos
+{
+    font-size: 25px !important;
+    float: right;
+    margin: inherit;
+}
+.login_container
+{
+    text-align: -webkit-center;
+}
+
+.myheader
+{
+    height:50px;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+.search_word
+{
+    margin: 10px;
+}
+.active_deslike{
+    color: #3ea6ff;
+}
+.active_like{
+    color: red;
+}
+.error_input
+{
+    border: 2px solid red;
+}
+.success_input{
+    border: 2px solid green;
+}
+.loader
+{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    perspective: 1600px;
+    perspective-origin: 20% 50%;
+    opacity: 0.8;
+    text-align: -webkit-center;
+    display: none;
+}
+.ajaxLoader{
+    margin-top: 200px;
+}
+.lp_hidden
+{
+    display: none !important;
+}
+.repos_name
+{
+    cursor: pointer;
+}
+.icon-down{
+    font-size: 25px !important;
+    float: right;
+    margin: inherit;
+}
+.icon-heart{
+    font-size: 25px !important;
+    float: right;
+}
+
+.come_in
+{
+    margin-top: 10px;
+}
+.error_message{
+    width: 600px;
+}
+.body_all_repos{
+    display: none;
+}
+.private
+{
+    border: 2px solid red;
+}
+.public
+{
+    border: 2px solid green;
+}
+.green_square
+{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    display: block;
+}
+.red_square
+{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: block;
+}
+.col_and_text{
+    display: inline-flex;
+    margin-top: 5px;
+}
+.hidden_dislike{
+    display: none;
+}
